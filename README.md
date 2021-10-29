@@ -64,7 +64,7 @@ The DOM is short for Document Object Model and acts as a programming interface f
 2. What is an event?
 An event is something that happens to an HTML element. They occur when the user or the browser manipulates a page in some way.
 3. What is an event listener?
-Avn event listener is a function in code that waits for a certain event to occur. For instance, an event lister may wait for a click of a button to run a function that displays a pop-up modal.
+Av event listener is a function in code that waits for a certain event to occur. For instance, an event listener may wait for a click of a button to run a function that displays a pop-up modal.
 4. Why would we convert a NodeList into an Array?
 A nodelist looks like an array, but in reality it is a collection of DOM nodes that is taken from the HTML base of the webpage. By converting this data to an array, we can manipulate the array through javascript, with default array functions such as .map();
 5. What is a component?

@@ -28,7 +28,6 @@ const Header = (title, date, temp) => {
       headTemp.textContent = `${temp}`
       headDiv.appendChild(headTemp)
 
-  console.log('working')
   return headDiv;
 }
 
