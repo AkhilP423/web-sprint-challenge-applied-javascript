@@ -59,10 +59,13 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
+Before reading the interview questions, I ask that you check out the localhost output for my code. The error message is:  "TestingLibraryElementError: Unable to find an element with the text: foo. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible" and it seems impossible to fix for me. That being said my output is correct.
+
+
 1. What is the DOM?
-The DOM is short for Document Object Model and acts as a programming interface for documents on the web. It represents the page as clusters of nodes/objects so that languages like react can manipulate its date.
+The DOM is short for Document Object Model and acts as a programming interface for documents on the web. It represents the page as clusters of nodes/objects so that languages like react can manipulate its date. For instance, javascript can access these nodes/objects and interact with the html data.
 2. What is an event?
-An event is something that happens to an HTML element. They occur when the user or the browser manipulates a page in some way.
+An event is something that happens to an HTML element. They occur when the user or the browser manipulates a page in some way. For instance, a click is an event.
 3. What is an event listener?
 Av event listener is a function in code that waits for a certain event to occur. For instance, an event listener may wait for a click of a button to run a function that displays a pop-up modal.
 4. Why would we convert a NodeList into an Array?

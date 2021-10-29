@@ -1,4 +1,5 @@
 import axios from "axios"
+
 const Tabs = (topics) => {
   // TASK 3
   // ---------------------
@@ -22,9 +23,12 @@ const Tabs = (topics) => {
     tab.classList.add('tab');
     tab.innerText = topic;
     tabs.append(tab);
-  })
-
+  
+  }
+  
+  )
   return tabs;
+  
 }
 
 const tabsAppender = (selector) => {
