@@ -60,7 +60,12 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+The DOM is short for Document Object Model and acts as a programming interface for documents on the web. It represents the page as clusters of nodes/objects so that languages like react can manipulate its date.
 2. What is an event?
+An event is something that happens to an HTML element. They occur when the user or the browser manipulates a page in some way.
 3. What is an event listener?
+Avn event listener is a function in code that waits for a certain event to occur. For instance, an event lister may wait for a click of a button to run a function that displays a pop-up modal.
 4. Why would we convert a NodeList into an Array?
+A nodelist looks like an array, but in reality it is a collection of DOM nodes that is taken from the HTML base of the webpage. By converting this data to an array, we can manipulate the array through javascript, with default array functions such as .map();
 5. What is a component?
+At a base level, they are just snippets of code that can be reused. They are similar to functions in javascript, but return HTML instead.
