@@ -56,8 +56,25 @@ const cardAppender = (selector) => {
   // However, the articles do not come organized in a single, neat array. Inspect the response closely!
   // Create a card from each and every article object in the response, using the Card component.
   // Append each card to the element in the DOM that matches the selector passed to the function.
-  //
-const target = document.querySelector(selector)
+  //axios.get('https://lambda-times-api.herokuapp.com/topics')
+
+  axios.get('http://localhost:5000/api/topics') 
+  .then(res => {
+  res.data.topics.forEach(topic => {
+    axios.get('http://localhost:5000/api/articles')
+    .then(res => {
+      let target = document.querySelector(selector);
+      if(topic === 'node.js'){
+        topic = 'node';
+      } 
+      let cardData = (res.data.articles[topic])
+      for(let i = 0; i < cardData.length; i++){
+        target.append(Card(cardData[i]));
+      }
+    })
+  })
+})
+}
 
 
 
